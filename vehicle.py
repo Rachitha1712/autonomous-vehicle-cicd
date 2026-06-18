@@ -1,7 +1,7 @@
 def vehicle_decision(distance):
 
     if distance < 10:
-        return "STOPPED"
+        return "STOP"
 
     elif distance < 30:
         return "SLOW DOWN"
